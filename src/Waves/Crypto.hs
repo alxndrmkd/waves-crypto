@@ -20,8 +20,10 @@ module Waves.Crypto (
   , decode58
   , encode64
   , decode64
+  , MonadRandom(..)
 ) where
 
 import Waves.Crypto.Types
 import Waves.Crypto.Base
 import Waves.Crypto.Funcs
+import Crypto.Random
